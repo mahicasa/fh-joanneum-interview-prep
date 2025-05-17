@@ -1,0 +1,13 @@
+# Query 1: Retrieve Running Servers - Retrieves the ID and uptime of all servers with a “running” status
+
+SELECT instance_id, uptime
+FROM servers
+WHERE status = 'running';
+
+# Query 2: Join Servers and Regions - Joins the servers and regions tables to list instance IDs in the us-east-1 region. I’d use this in SAP ERP or AWS to analyze regional resource distribution, applicable to AI data pipelines.
+
+SELECT s.instance_id, r.region_name
+FROM servers s
+INNER JOIN regions r ON s.region_id = r.id
+WHERE r.region_name = 'us-east-1';
+
