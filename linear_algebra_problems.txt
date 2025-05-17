@@ -1,0 +1,14 @@
+Problem 1: Matrix Multiplication
+Task: Compute the product of matrices A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]].
+Solution:
+A × B = [[15 + 27, 16 + 28], [35 + 47, 36 + 48]]
+= [[5 + 14, 6 + 16], [15 + 28, 18 + 32]]
+= [[19, 22], [43, 50]]
+
+Matrix multiplication is used in neural networks to transform input data, key for generative AI models like GANs.
+
+Problem 2: Vector Dot Product
+Task: Compute the dot product of vectors u = [1, 2] and v = [3, 4].
+Solution:
+u • v = 13 + 24 = 3 + 8 = 11
+Relevance: Dot products measure similarity in ML (e.g., feature weighting in LLMs), which I’ll study in the Master’s.
