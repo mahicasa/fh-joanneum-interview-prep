@@ -11,3 +11,9 @@ FROM servers s
 INNER JOIN regions r ON s.region_id = r.id
 WHERE r.region_name = 'us-east-1';
 
+
+=============
+
+What is the third normal form (3NF), and why is it important?”
+Answer: 3NF ensures a table is in 2NF and has no transitive dependencies (non-key attributes depend only on the primary key). For example, in a table [OrderID, CustomerID, CustomerCity], CustomerCity depends on CustomerID, not OrderID, so it’s moved to a separate table. 3NF reduces redundancy and improves data integrity, critical for efficient database design.
+
