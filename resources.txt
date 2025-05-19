@@ -1,8 +1,13 @@
 
+Linear Algebra and Programming Fundamentals (May 17–23, 2025)
+Goal: Build a foundation in linear algebra and programming concepts.
+
+Linear Algebra :
+Resource: Khan Academy: Linear Algebra https://www.khanacademy.org/math/linear-algebra
+Topics: Matrices (addition, multiplication, inverses), vectors (dot product, norms), determinants, eigenvalues/eigenvectors, linear transformations
 
 
-
-Advanced Linear Algebra (4 hours):
+Advanced Linear Algebra:
 Resource: 3Blue1Brown: Essence of Linear Algebra (https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab, free).
 Topics: Vector spaces, linear transformations, applications in machine learning (e.g., PCA, neural network weights).
 Practice: Solve problems on eigenvalues for ML (e.g., covariance matrix in PCA).
