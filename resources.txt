@@ -1,0 +1,8 @@
+
+
+
+
+Advanced Linear Algebra (4 hours):
+Resource: 3Blue1Brown: Essence of Linear Algebra (https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab, free).
+Topics: Vector spaces, linear transformations, applications in machine learning (e.g., PCA, neural network weights).
+Practice: Solve problems on eigenvalues for ML (e.g., covariance matrix in PCA).
